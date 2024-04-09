@@ -84,7 +84,19 @@
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
 
-          <button type="button" class="btn">Замовити послугу</button>
+          <button type="button" class="btn" data-open-modal>
+            Замовити послугу
+          </button>
+        </div>
+
+        <!-- модальне вікно -->
+
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="btn-close" type="button" data-close-modal></button>
+            <button class="btn-send" type="button">Відправити</button>
+          </div>
         </div>
       </section>
 
@@ -162,6 +174,7 @@
                 height="294"
                 alt="Відкритий лептоп, на столі лежать папери, за лептопом великий монітор з інформацією схожою на код"
               />
+              <p class="text">Десктопні додатки</p>
             </li>
             <li class="item">
               <img
@@ -170,6 +183,7 @@
                 height="294"
                 alt="На екрані лептопа макети з інформацією для мобільних телефонів, на задньому фоні великий додатковий монітор з зображенням інформації"
               />
+              <p class="text">Мобільні додатки</p>
             </li>
             <li class="item">
               <img
@@ -178,6 +192,7 @@
                 height="294"
                 alt="Планшет з палітрою кольорів на екрані, на задньому плані ноутбук та великий додатковий монітр, на якому відображається обраний моноколір"
               />
+              <p class="text">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -675,5 +690,6 @@
         </div>
       </div>
     </footer>
+    <script></script>
   </body>
 </html>
