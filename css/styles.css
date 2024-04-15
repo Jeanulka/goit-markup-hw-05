@@ -737,7 +737,7 @@ footer {
 
 .backdrop.is-hidden {
     opacity: 0;
-    visibility: hidden;
+
     pointer-events: none;
 }
 
@@ -781,7 +781,7 @@ footer {
 }
 
 .btn-close:hover,
-.btn-close:focus {
+А.btn-close:focus {
     cursor: pointer;
 }
 
