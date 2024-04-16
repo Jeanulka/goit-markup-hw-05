@@ -214,7 +214,9 @@ section {
 }
 
 
-/* Section Hero */
+/* =================
+Section Hero 
+====================*/
 .hero {
     max-width: 1600px;
     /* height: 600px; */
@@ -292,7 +294,9 @@ section {
     background-color: #188CE8;
 }
 
-/* Section Our features */
+/* ======================
+Section Our features
+=========================*/
 .features {
     padding-bottom: 0;
 }
@@ -338,7 +342,9 @@ section {
 }
 
 
-/* Section What we do */
+/* =========================
+Section What we do 
+===========================*/
 .what-we-do .list {
     display: flex;
     flex-wrap: wrap;
@@ -371,7 +377,9 @@ section {
     color: #fff;
 }
 
-/* Our Team section */
+/* =======================
+Our Team section 
+========================*/
 .team {
     background-color: var(--background-third-color);
 }
@@ -452,7 +460,9 @@ section {
     fill: var(--secondary-color);
 }
 
-/* Clients section*/
+/* ==================
+Clients section
+=====================*/
 
 .clients .list {
     display: flex;
@@ -494,7 +504,9 @@ section {
     fill: #188CE8;
 }
 
-/* Portfolio section */
+/* ===========================
+Portfolio section 
+===============================*/
 .portfolio-button-list {
     display: flex;
     flex-wrap: wrap;
@@ -631,7 +643,9 @@ section {
     transform: translateY(calc(0%));
 }
 
-/* Footer */
+/* =============================
+Footer 
+================================*/
 footer {
     background-color: var(--background-secondary-color);
     padding-top: 60px;
@@ -717,9 +731,9 @@ footer {
     background-color: #188CE8;
 }
 
-/* ----------------------------------- */
+/*=====================================*/
 /* Модальне вікно */
-/* ----------------------------------- */
+/*=====================================*/
 
 .backdrop {
     position: fixed;
@@ -730,14 +744,15 @@ footer {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-
+    visibility: visible;
     opacity: 1;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
     opacity: 0;
-
+    visibility: hidden;
     pointer-events: none;
 }
 
